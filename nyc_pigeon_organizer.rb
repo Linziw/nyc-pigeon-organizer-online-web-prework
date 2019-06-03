@@ -39,6 +39,8 @@ end
           new_hash[name][:color] << "bum"
 end
 end
+end
+end
 binding.pry
 end
 
