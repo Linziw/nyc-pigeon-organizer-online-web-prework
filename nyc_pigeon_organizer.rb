@@ -36,7 +36,7 @@ end
     attr_hash.each do |cgl,name_array|
       name_array.each do |name|  
         if attr_keys == :color
-          new_hash[name][:color] << "bum"
+          new_hash[name][:color] << cgl.to_s
 end
 end
 end
