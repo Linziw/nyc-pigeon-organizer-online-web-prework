@@ -30,7 +30,7 @@ def nyc_pigeon_organizer(data)
         end
       new_hash[name]={:color => [], :gender => [], :lives => [] }
         if attr_keys == :color
-          new_hash[name][:color]<< "bum"
+          new_hash[name][:color] << "bum"
 end      
 end
 end
