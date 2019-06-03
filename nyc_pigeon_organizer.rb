@@ -35,15 +35,14 @@ end
       data.each do |attr_keys, attr_hash|
     attr_hash.each do |cgl,name_array|
       name_array.each do |name|  
-        #if attr_keys == :color
           new_hash[name][attr_keys] << cgl.to_s
-#end
+
 end
 end
 end
-binding.pry
+new_hash
 end
 
-nyc_pigeon_organizer(pigeon_data)
+
 
 
