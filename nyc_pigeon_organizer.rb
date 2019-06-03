@@ -29,11 +29,16 @@ def nyc_pigeon_organizer(data)
           new_hash[name] = {}
         end
       new_hash[name]={:color => [], :gender => [], :lives => [] }
-        
-        
+      
+      data.each do |attr_keys, attr_hash|
+    attr_hash.each do |cgl,name_array|
+      name_array.each do |name|  
         if attr_keys == :color
           new_hash[name][:color] << "bum"
 end      
+end
+end
+end
 end
 end
 end
