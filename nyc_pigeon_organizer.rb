@@ -37,11 +37,6 @@ end
       name_array.each do |name|  
         if attr_keys == :color
           new_hash[name][:color] << "bum"
-end      
-end
-end
-end
-end
 end
 end
 binding.pry
